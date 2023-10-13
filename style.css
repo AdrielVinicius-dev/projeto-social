@@ -31,3 +31,34 @@ main{
     background-repeat: no-repeat;
 }
 
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
+#redes{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+}
+
+.apps{
+    border-radius: 50%;
+    width: 50px;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    box-sizing: border-box;
+
+}
+
+.apps:hover{
+    transform: translate(-3px, -3px);
+    border: 3px rgba(255, 255, 255, 0.747) solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    transition: transform .5s, border .7s;
+}
+
